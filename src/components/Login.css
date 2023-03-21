@@ -1,0 +1,50 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+  * {
+      font-family: 'Tilt Neon', cursive;
+  }
+ .textbox-15 {
+     margin: 10px 0px;
+     padding: 2px 0;
+     font-size: 14px;
+     color: #333;
+     height: 30px;
+     width: 275px;
+     letter-spacing: 1px;
+     border: 1px solid transparent;
+     border-bottom-color: #ccc;
+     transition: 0.4s;
+     outline: none;
+ }
+
+ .textbox-15~.focus-border-15 {
+     margin: 10px 0px;
+     position: absolute;
+     height: 30px;
+     bottom: 0;
+     left: 0;
+     width: 0;
+     transition: 0.4s;
+ }
+
+ .textbox-15:focus~.focus-border-15 {
+     width: 100%;
+     transition: 0.4s; 
+ }
+
+ .textbox-15:focus {
+     padding-left: 10px;
+     transition: 0.4s;
+ } 
+ .SumbitBtn{
+    color: #252525;
+        width: 100px;
+        height: 25px;
+        margin: 0px 20px;
+        border: #252525 solid 2px;
+        font-weight: 500;
+        margin: 20px 0px;
+ } 
+ .SumbitBtn:hover {
+    cursor: pointer;
+ }
